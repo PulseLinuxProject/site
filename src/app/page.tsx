@@ -206,12 +206,12 @@ export default function Home() {
           <div className="mt-8 text-center">
             <a
               href="https://github.com/placeholderrrr"
-              target="_blank"
-              rel="noopener noreferrer"
+            target="_blank"
+            rel="noopener noreferrer"
               className="glass-card github-button aqua-glow inline-block px-8 py-4 text-lg"
-            >
+          >
               Check it out on GitHub
-            </a>
+          </a>
           </div>
         </div>
       </motion.div>
@@ -234,7 +234,11 @@ export default function Home() {
           <div className="grid md:grid-cols-2 gap-6">
             <div className="glass-card p-6">
               <div className="flex flex-col items-center">
-                <div className="w-24 h-24 rounded-full bg-cyan-400/20 mb-4"></div>
+                <img 
+                  src="/team/spitkov.png" 
+                  alt="Spitkov"
+                  className="w-24 h-24 rounded-full bg-cyan-400/20 mb-4 object-cover"
+                />
                 <h3 className="text-xl font-bold mb-2">Spitkov</h3>
                 <div className="flex flex-col items-center gap-1">
                   <p className="text-cyan-400">PulseConnect Developer</p>
@@ -244,7 +248,11 @@ export default function Home() {
             </div>
             <div className="glass-card p-6">
               <div className="flex flex-col items-center">
-                <div className="w-24 h-24 rounded-full bg-cyan-400/20 mb-4"></div>
+                <img 
+                  src="/team/mateusztech.png" 
+                  alt="MateuszTech"
+                  className="w-24 h-24 rounded-full bg-cyan-400/20 mb-4 object-cover"
+                />
                 <h3 className="text-xl font-bold mb-2">MateuszTech</h3>
                 <p className="text-cyan-400">Designer</p>
               </div>
@@ -293,7 +301,7 @@ export default function Home() {
             </button>
           ))}
         </nav>
-      </div>
+    </div>
 
       {/* Content */}
       <motion.div
