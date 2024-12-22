@@ -33,8 +33,9 @@ export default function Home() {
         className="max-w-5xl mx-auto"
       >
         <div className="text-center mb-12">
-          <h1 className="text-6xl font-bold mb-6 text-gradient">
-            PulseOS
+          <h1 className="text-6xl font-bold mb-6 title-split">
+            <span className="title-pulse">Pulse</span>
+            <span className="title-os">OS</span>
           </h1>
           <motion.p 
             className="text-xl text-gray-300 max-w-3xl mx-auto"
