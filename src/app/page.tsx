@@ -242,6 +242,27 @@ export default function Home() {
                 </div>
               </div>
             </div>
+            <div className="glass-card p-6">
+              <div className="flex flex-col items-center">
+                <div className="w-24 h-24 rounded-full bg-cyan-400/20 mb-4"></div>
+                <h3 className="text-xl font-bold mb-2">MateuszTech</h3>
+                <p className="text-cyan-400">Designer</p>
+              </div>
+            </div>
+            <div className="glass-card p-6">
+              <div className="flex flex-col items-center">
+                <div className="w-24 h-24 rounded-full bg-cyan-400/20 mb-4"></div>
+                <h3 className="text-xl font-bold mb-2">2hundr3d_</h3>
+                <p className="text-cyan-400">Linux App Developer</p>
+              </div>
+            </div>
+            <div className="glass-card p-6">
+              <div className="flex flex-col items-center">
+                <div className="w-24 h-24 rounded-full bg-cyan-400/20 mb-4"></div>
+                <h3 className="text-xl font-bold mb-2">sugar_alx</h3>
+                <p className="text-cyan-400">Designer</p>
+              </div>
+            </div>
           </div>
         </div>
       </motion.div>
